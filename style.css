@@ -1,0 +1,45 @@
+header{
+    font: normal 20px Arial;
+    text-align: center;
+}
+body{
+    background: cornflowerblue;
+    font: normal 19px Arial;
+}
+section{
+    background: rgba(250, 113, 141, 0.953);
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px ;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+input#dia, input#mes, input#ano{
+    width: 50px;
+}
+input#button, input#buttontab{
+    font: normal 25px Arial;
+    height: 50px;
+    width: 215px;
+    box-shadow: 2px 2px 2px;
+}
+div#res, div#avaliar, div#resptabuada{
+    padding: 30px;
+}
+input#tabuada{
+    width: 60px;
+}
+div#avaliar{
+    padding: 20px;
+}
+input#buttonenviar{
+    margin-left: 365px;
+}
+p#avaliacao{
+    text-align: right;
+}

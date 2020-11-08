@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Testando algumas condições</h1>
+    </header>
+    <section>
+        <div>
+            <h2>Olá, seja bem vindo a script do que aprendi.</h2> <hr>
+        </div>
+        <div>
+            <p>Seu nome: <input type="text" name="nome" id="nome"> </p>
+            <p>Sexo:
+                <input type="radio" name="radiosexo" id="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radiosexo" id="feminino">
+                <label for="feminino">Feminino</label>
+            </p>
+            <p>Data de nascimento: <br>
+                <input type="number" name="dia" id="dia">
+                <input type="number" name="mes" id="mes">
+                <input type="number" name="ano" id="ano">
+            </p>
+            <input id='button' type="button" value="PRONTO!" onclick='pronto()'>
+        </div>
+        <div id='res'>
+            <p>Aguardando informações...</p> <hr>
+        </div>
+        <div id='definicaodedata'></div>
+        <div id='resptabuada'>
+            <h3>Agora vamos fazer uma pequena Tabuada.</h3>
+            <p>Digite um numero: <input type="number" name="tabuada" id="tabuada"></p>
+            <input id='buttontab' type="button" value="Calcular" onclick="tabuada()">
+            <p id='respostatabuada'>Calculando...</p> <hr>
+        </div>
+        <div id='avaliar'>
+            <h3>Agora com base no teste, envie sua satisfação</h3>
+            <input type="radio" name="avaliar" id="1">
+            <label for="1">1</label>
+            <input type="radio" name="avaliar" id="2">
+            <label for="2">2</label>
+            <input type="radio" name="avaliar" id="3">
+            <label for="3">3</label>
+            <input type="radio" name="avaliar" id="4">
+            <label for="4">4</label>
+            <input type="radio" name="avaliar" id="5">
+            <label for="5">5</label>
+            <input type="radio" name="avaliar" id="6">
+            <label for="6">6</label>
+            <input type="radio" name="avaliar" id="7">
+            <label for="7">7</label>
+            <input type="radio" name="avaliar" id="8">
+            <label for="8">8</label>
+            <input type="radio" name="avaliar" id="9">
+            <label for="9">9</label>
+            <input type="radio" name="avaliar" id="10">
+            <label for="10">10</label> <br>
+            <input id='buttonenviar' type="button" value="ENVIAR" onclick="avaliar()">
+            <p id='avaliacao'>Aguardando avaliação...</p>
+        </div>
+    </section>
+    <footer>
+        &copy; EduardoPrado
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
