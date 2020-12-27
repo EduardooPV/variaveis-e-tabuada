@@ -1,5 +1,5 @@
-## Variaveis e Tabuada
+# Variaveis e tabuada
 
-Trabalhando com variaveis no JavaScript e testando um pouco de CSS3.
+Aplicando conceitos de **variaveis** e **if/else**.
 
-![image](https://user-images.githubusercontent.com/69824782/103103229-7f055e00-45fe-11eb-893d-fef3c18f30d2.png)
+![image](https://user-images.githubusercontent.com/69824782/103175769-38587380-484b-11eb-93a3-523103068c9a.png)
